@@ -1,7 +1,14 @@
+/* General tags */
 body {
   background-color: #1A1A1A;
 }
 
 p {
   color: #DDDDDD;
+}
+
+
+/* Specific IDs */
+#container {
+  
 }
