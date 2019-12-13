@@ -1,14 +1,58 @@
 /* General tags */
 body {
-  background-color: #1A1A1A;
+  /* background-color: #1A1A1A; */
+  background-color: white;
+  color: #DDDDDD;
+
+  margin: 0;
+}
+
+a {
+  color: #DDDDDD;
+  font-family: 'Grenze', monospace;
+  font-size: 13pt;
+  /* font-weight: bold; */
+}
+
+h1, h2 {
+  font-family: 'Grenze', serif;
+  font-weight: normal;
+  font-size: 28pt;
+  
+  margin: -0.5em 0 0;
+}
+
+h2 {
+  font-size: 20pt;
+
+  margin: 0.5em 0 0;
 }
 
 p {
-  color: #DDDDDD;
+  font-family: 'Nunito', sans-serif;
+  font-size: 11pt;
+  
+  margin: 0;
+}
+
+
+/* Active elements */
+a:hover {
+  color: #BBBBBB;
 }
 
 
 /* Specific IDs */
 #container {
+  background-color: #333333;
+  /* background-image: repeating-linear-gradient(to right, #222, #333 10%, #333 90%, #222); */
+  border: 1px dashed #756b6f;
+  box-shadow: 0 0 0 6px #242424, 0 2px 10px 6px rgba(0, 0, 0, 0.8);
   
+  min-width: 21em;
+  width: 75vw;
+  max-width: 42em;
+  margin: 2em auto;
+  padding: 2em 1em;
+  /* height: 100vh; */
 }
